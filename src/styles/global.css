@@ -2,4 +2,8 @@
 
 body {
   font-family: 'IBM Plex Mono', monospace;
+  /* The design is light-only; without an explicit background the page
+     inherits the host's dark ground and the sections lose their canvas. */
+  background-color: #ffffff;
+  color-scheme: light;
 }
